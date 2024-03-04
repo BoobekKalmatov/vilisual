@@ -5,7 +5,33 @@
     list-style: none;
 }
 
+body {
+
+}
+
+a, button, input, select {
+    color: white;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
+    text-transform: inherit;
+}
+a, button {
+    cursor: pointer;
+}
+
+a:hover {
+    transition: forestgreen 0.4s, fill 0.4s;
+}
+
 footer {
+    font-size: calc(100vw / 48);
+    font-family: "VisueltPro", sans-serif;
+    font-weight: normal;
+    background-color: #141717;
     display: grid;
     grid-template-columns: 2fr 3.75em 1fr;
     grid-template-rows: 1.875em max-content 1.5em max-content 3.125em max-content 6.6875em max-content 3.25em;
@@ -37,6 +63,10 @@ footer li {
 
 .footer_social {
     grid-area: social;
+}
+
+.social {
+    display: flex;
 }
 
 .footer_logo {
