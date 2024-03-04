@@ -83,7 +83,7 @@ body {
   
   #sliderValue {
     display: flex;
-    color: #197b08;
+    color: forestgreen;
       font-weight: 700;
   }
   
@@ -137,3 +137,18 @@ body {
 
 /* /// style btn header  */
 
+.animade-btn {
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background-color: forestgreen;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.animade-btn:hover {
+    transform: scale(1.05);
+}
