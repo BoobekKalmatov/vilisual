@@ -18,7 +18,9 @@ body {
     box-sizing: border-box;   
 }
 
-
+.header {
+    height: 100vh;
+}
 
 .navigate {
     display: flex;
